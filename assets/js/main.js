@@ -16,7 +16,6 @@
 
 	$(function () {
 		$("#emailError").hide();
-		$("#subjectError").hide();
 		$("#form-submit-message").hide();
 		var error_email = false;
 	
@@ -102,7 +101,6 @@
 		  $("#form-submit-error").hide();
 		  $("#form-submit-message").hide();
 		  $("#emailError").hide();
-		  $("#subjectError").hide();
 		});
 	  });
 
