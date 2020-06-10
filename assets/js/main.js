@@ -33,27 +33,11 @@
 		}
 	
 		// check subject error fucntion
-		function check_subject() {
-		  if ($("#subject").val().length > 50) {
-			$("#subjectError").hide();
-			return false;
-		  }
-		  if (
-			$("#subject").focusout(function () {
-			  $("#subjectError").hide();
-			})
-		  );
-		  $("#subjectError").html(
-			"Remaining characters : " + (100 - $("#subject").val().length)
-		  );
-		  $("#subjectError").show();
-		}
 	
 		//clear form function
 		function clear_form() {
 		  $("#name").val("");
 		  $("#email").val("");
-		  $("#subject").val("");
 		  $("#message").val("");
 		}
 	
@@ -67,17 +51,9 @@
 	
 		  $("#form-submit-message").hide();
 		});
-		$("#subject").focusin(function () {
-		  $("#form-submit-error").hide();
-		  $("#form-submit-message").hide();
-		});
 		$("#message").focusin(function () {
 		  $("#form-submit-error").hide();
 		  $("#form-submit-message").hide();
-		});
-	
-		$("#subject").keypress(function () {
-		  check_subject();
 		});
 	
 		$("#email").focusout(function () {
@@ -93,13 +69,11 @@
 		  check_email();
 	
 		  var emailInput = $("#email").val();
-		  var subjectInput = $("#subject").val();
 		  var textMsgInput = $("#message").val();
 		  var nameInput = $("#name").val();
 	
 		  if (
 			emailInput &&
-			subjectInput &&
 			textMsgInput &&
 			nameInput &&
 			error_email == false
@@ -124,7 +98,6 @@
 		$("#clear-form").click(function () {
 		  $("#name").val("");
 		  $("#email").val("");
-		  $("#subject").val("");
 		  $("#message").val("");
 		  $("#form-submit-error").hide();
 		  $("#form-submit-message").hide();

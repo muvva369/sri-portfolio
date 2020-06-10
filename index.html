@@ -44,7 +44,8 @@
 					platform
 					for Healthcare domain clients</p>
 				<ul class="actions">
-					<li><a href="#work" class="button" style="box-shadow: 0 2px 10px rgba(0, 0, 0, 2);">Learn More</a></li>
+					<li><a href="#work" class="button" style="box-shadow: 0 2px 10px rgba(0, 0, 0, 2);">Learn More</a>
+					</li>
 				</ul>
 			</div>
 		</section>
@@ -181,33 +182,100 @@
 					<p id="form-submit-error" style="color: red; text-shadow: none;"></p>
 				</div>
 				<div class="row">
+					<!-- <div class="col-12">
+						<form
+						  id="contact-form"
+						  name="contact-form"
+						  method="post"
+						  data-netlify="true"
+						  action="/index.html#contact"
+						>
+						  <div class="row">
+							<div class="col-6 col-12-small">
+							  <input type="text" name="name" id="name" placeholder="Name" />
+							</div>
+							<div class="col-6 col-12-small">
+							  <input
+								type="text"
+								name="email"
+								id="email"
+								placeholder="Your Email"
+							  /><span
+								id="emailError"
+								style="color: red; text-shadow: none;"
+							  ></span>
+							</div>
+							<div class="col-12">
+							  <input
+								type="text"
+								name="subject"
+								id="subject"
+								placeholder="Subject"
+							  /><span
+								id="subjectError"
+								style="color: red; text-shadow: none;"
+							  ></span>
+							</div>
+							<div class="col-12">
+							  <textarea
+								name="message"
+								id="message"
+								placeholder="Feedback/Suggestions/Improvement ideas are welcome..."
+							  ></textarea>
+							</div>
+			
+							<div class="col-12">
+							  <ul class="actions">
+								<li>
+								  <input
+									type="submit"
+									value="Send Message"
+									style="box-shadow: 0 2px 10px rgba(0, 0, 0, 2);"
+								  />
+								</li>
+								<li>
+								  <input
+									type="reset"
+									value="Clear Form"
+									class="alt"
+									id="clear-form"
+									style="box-shadow: 0 2px 10px rgba(0, 0, 0, 2);"
+								  />
+								</li>
+							  </ul>
+							</div>
+						  </div>
+						</form>
+					  </div> -->
 					<div class="col-8 col-12-small">
 						<form id="contact-form" name="contact-form" method="POST" data-netlify="true"
 							action="/index.html#contact">
 							<div class="row gtr-uniform gtr-50">
 								<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name"
 										placeholder="Name" /></div>
-								<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email"
-										placeholder="Email" /></div>
+								<div class="col-6 col-12-xsmall"><input type="text" name="email" id="email"
+										placeholder="Your Email" />
+									<span id="emailError" style="color: red; text-shadow: none;"></span>
+								</div>
 								<div class="col-12"><textarea name="message" id="message"
 										placeholder="Any Feedback, suggestion or message" rows="4"></textarea></div>
+							</div><br/>
+							<div class="col-12">
+								<ul class="actions">
+									<li>
+										<input type="submit" value="Send Message"
+											style="box-shadow: 0 2px 10px rgba(0, 0, 0, 2);" />
+									</li>
+									<li>
+										<input type="reset" value="Clear Form" class="alt" id="clear-form"
+											style="box-shadow: 0 2px 10px rgba(0, 0, 0, 2);" />
+									</li>
+								</ul>
 							</div>
 						</form>
 						<!-- <ul class="actions">
 							<li><input type="submit" value="Send Message" /></li>
 						</ul> -->
-						<div class="col-12">
-							<ul class="actions">
-								<li>
-									<input type="submit" value="Send Message"
-										style="box-shadow: 0 2px 10px rgba(0, 0, 0, 2);" />
-								</li>
-								<li>
-									<input type="reset" value="Clear Form" class="alt" id="clear-form"
-										style="box-shadow: 0 2px 10px rgba(0, 0, 0, 2);" />
-								</li>
-							</ul>
-						</div>
 					</div>
 					<div class="col-4 col-12-small">
 						<ul class="labeled-icons">
