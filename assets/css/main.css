@@ -2052,7 +2052,13 @@ input, select, textarea {
 
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
+			
 		}
+		.iconbox:hover{
+			transform: scale(1.1);
+    		box-shadow: whitesmoke;
+		}
+
 
 /* Image */
 
@@ -3037,7 +3043,7 @@ input, select, textarea {
 
 		/* Footer */
 			#footer {
-				background-image: url("images/overlay.png"), url("../../images/bgvs.jpg");
+				background-image: url("images/overlay.png"), url("../../images/bgvsfooter.png");
 			}
 			#footer .copyright li {
 				border-left-width: 0;
@@ -3103,7 +3109,7 @@ input, select, textarea {
 			#footer {
 				background-attachment: scroll;
 				background-color: #1f1815;
-				background-image: url("images/overlay.png"), url("../../images/bgvs.jpg");
+				background-image: url("images/overlay.png"), url("../../images/bgvsfooter.png");
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;
@@ -3193,7 +3199,7 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				background-image: url("images/overlay.png"), url("../../images/bgvs.jpg");
+				background-image: url("images/overlay.png"), url("../../images/bgvsfooter.png");
 				padding: 2.25em 1.5em;
 			}
 
@@ -3238,7 +3244,7 @@ input, select, textarea {
 
 		/* Footer */
 			#footer{
-				background-image: url("images/overlay.png"), url("../../images/bgvs.jpg");
+				background-image: url("images/overlay.png"), url("../../images/bgvsfooter.png");
 			}
 			#footer .copyright li {
 				border-left-width: 0;
