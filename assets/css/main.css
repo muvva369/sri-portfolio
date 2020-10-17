@@ -302,7 +302,9 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 480px) {
-
+			#nav{
+				top:-2rem !important
+			}
 			.container {
 				max-width: calc(100% - 3em);
 			}
@@ -1284,11 +1286,13 @@ input, select, textarea {
 						.row.gtr-200.gtr-uniform > * {
 							padding-top: 4em;
 						}
+					
 
 		}
 
 		@media screen and (max-width: 736px) {
 
+			
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1534,6 +1538,9 @@ input, select, textarea {
 
 		@media screen and (max-width: 480px) {
 
+			#nav{
+				top:-2rem !important
+			}
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -2336,7 +2343,9 @@ input, select, textarea {
 			}
 
 		@media screen and (max-width: 480px) {
-
+			#nav{
+				top:-2rem !important
+			}
 			ul.actions:not(.fixed) {
 				-moz-flex-direction: column;
 				-webkit-flex-direction: column;
@@ -3152,7 +3161,9 @@ input, select, textarea {
 /* Small */
 
 	@media screen and (max-width: 736px) {
-
+		#nav{
+			top:-2rem !important
+		}
 		/* Basic */
 
 			h1 {
@@ -3232,7 +3243,9 @@ input, select, textarea {
 /* XSmall */
 
 	@media screen and (max-width: 480px) {
-
+		#nav{
+			top:-2rem !important
+		}
 		/* Header */
 
 			#header {
@@ -3264,7 +3277,7 @@ input, select, textarea {
 #nav {
 	position: relative;
 	display: block;
-	top: -5rem !important; 
+	top: -5rem ; 
 	left: 0;
 	width: 100%;
 	text-align: center;
